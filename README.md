@@ -11,5 +11,11 @@
 
 # 작업 목록
 - issue-1: 규모추정 및 시스템 디자인
-- issue-2: 요구 사항 작성
-- 
+- issue-2: 요구사항 작성
+- issue-3: REAMDE 수정
+- issue-4: 외부 api 연동
+- issue-5: api 서버 구성
+- issue-6: 데이터베이스 연결
+- issue-7: 검색 통계 기능 구현
+- issue-8: 문서화
+- issue-9: 고가용성을 위한 설계
