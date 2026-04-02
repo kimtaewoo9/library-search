@@ -13,7 +13,7 @@ public class NaverClient {
 	public NaverClient(
 		@Value("${naver.base-url}") String baseUrl,
 		@Value("${naver.client-id}") String clientId,
-		@Value("${naver.client-secret") String clientSecret
+		@Value("${naver.client-secret}") String clientSecret
 	) {
 		this.restClient = RestClient.builder()
 			.baseUrl(baseUrl)

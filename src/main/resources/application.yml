@@ -1,3 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:library
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+
 naver:
+  base-url: "https://openapi.naver.com"
   client-id: "client-id"
   client-secret: "client-secret"
