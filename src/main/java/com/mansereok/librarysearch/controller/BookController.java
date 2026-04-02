@@ -23,7 +23,7 @@ public class BookController {
 
 	@GetMapping("/api/v1/books")
 	public NaverBookSearchResponse search(@Valid SearchRequest searchRequest) {
-		return bookService.searchBook(
+		return bookService.searchBooks(
 			searchRequest.getQuery(),
 			searchRequest.getPage(),
 			searchRequest.getSize()
