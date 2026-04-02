@@ -22,7 +22,7 @@ public class BookService {
 
 	private final DailyStatQueryService dailyStatQueryService;
 
-	public NaverBookSearchResponse searchBook(String query, int page, int size) {
+	public NaverBookSearchResponse searchBooks(String query, int page, int size) {
 		int start = (page - 1) * size + 1;
 		NaverBookSearchResponse response = naverClient.searchBooks(query, size, start);
 		if(response != null){
